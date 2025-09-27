@@ -412,9 +412,22 @@ article.icon {
     font-size: larger;
 }
 
+.contact-info-container p[onclick] {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.contact-info-container p[onclick]:hover {
+    color: rgb(85, 85, 85);
+}
+
 .contact-icon {
     cursor: default;
     height: 2rem;
+}
+
+.contact-icon[onclick] {
+    cursor: pointer;
 }
 
 .email-icon {
